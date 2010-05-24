@@ -1,1 +1,10 @@
 My test of node.js hacking. Done @ Javascript Meetup @ Hypergene in Malmö.
+
+Requirements:
+  http://nodejs.org/
+
+Server usage:
+  node calc.js
+
+Client usage:
+  http://localhost:6666/(23+7)*5
