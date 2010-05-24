@@ -4,7 +4,7 @@ var sys = require('sys'),
     fs = require('fs'),
     Buffer = require('buffer').Buffer;
     
-sys.puts('Feed proxy server running on http://127.0.0.1:6666/');
+sys.puts('Calculator running on http://localhost:6666/');
 
 http.createServer(function (req, res) {
   var expr = url.parse(req.url).pathname.substr(1);
